@@ -1,4 +1,4 @@
-import { Zap } from "lucide-react"
+import Image from "next/image";
 
 export function Footer() {
   return (
@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center">
-              <Zap className="h-5 w-5 text-purple-400 mr-2" />
+              <Image src="/iconb.svg" alt="TokenFlows logo" width={20} height={20} className="mr-2" />
               <span>
                 Token<span className="font-light">Flows</span>
               </span>

@@ -2,8 +2,9 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Button } from "@/components/ui/button"
-import { Menu, X, Zap } from "lucide-react"
+import { Menu, X } from "lucide-react"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -32,7 +33,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Zap className="h-6 w-6 text-purple-600 mr-2" />
+              <Image src="/icon.svg" alt="TokenFlows logo" width={24} height={24} className="mr-2" />
               <span className="text-2xl font-bold text-purple-600">
                 Token<span className="font-light">Flows</span>
               </span>
