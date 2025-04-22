@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
             <h3 className="text-xl font-bold mb-4 flex items-center">
-              <Image src="/iconb.svg" alt="TokenFlows logo" width={20} height={20} className="mr-2" />
+              <Image src="/logo.svg" alt="TokenFlows logo" width={20} height={20} className="mr-2" />
               <span>
                 Token<span className="font-light">Flows</span>
               </span>

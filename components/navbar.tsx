@@ -33,7 +33,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <Image src="/icon.svg" alt="TokenFlows logo" width={24} height={24} className="mr-2" />
+              <Image src="/logo.svg" alt="TokenFlows logo" width={24} height={24} className="mr-2" />
               <span className="text-2xl font-bold text-purple-600">
                 Token<span className="font-light">Flows</span>
               </span>

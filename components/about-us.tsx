@@ -86,7 +86,7 @@ export function AboutUs() {
             <div className="absolute -top-10 -left-10 w-40 h-40 token-blob flow-gradient opacity-30 animate-flow-left"></div>
             <div className="absolute -bottom-10 -right-10 w-40 h-40 token-blob flow-gradient opacity-30 animate-flow-right"></div>
 
-            <div className="relative bg-white/80 backdrop-blur-sm rounded-xl shadow-xl p-6 border border-gray-100 aspect-square flex items-center justify-center overflow-hidden">
+            <div className="relative bg-white/80 backdrop-blur-sm rounded-xl shadow-xl p-6 border border-gray-100 aspect-[1/0.7] flex items-center justify-center overflow-hidden">
               <Carousel
                 plugins={[plugin.current]}
                 className="w-full max-w-[14rem]"
